@@ -66,6 +66,7 @@ th, td{
 
 .links{
     padding: 0em 0em 2em 0em;
+    margin-left: 4em;
 }
 
 
@@ -88,8 +89,8 @@ figcaption{
 }
 
 .grid {
-    background: white;
-    margin: 0 auto;
+   
+    margin-left: 50px;
   }
   
   /* clearfix */
@@ -104,16 +105,17 @@ figcaption{
 
   .grid-item {
     max-height: auto;
-    width: 200px;
-    margin-bottom: 0.5em;
-    
+    max-width: 200px;
+    float: left;
   }
 
   .grid-item img{
-      max-width: 100%;
+      max-width: 200px;
       max-height: auto;
       object-fit: cover;
+  
   }
+
 
 
 @media screen and (min-width: 700px) {
@@ -129,6 +131,10 @@ figcaption{
 
     .table{
         width: 100%;
+    }
+
+    .links{
+        margin-left: 3em;
     }
 
 /*photogallery*/
